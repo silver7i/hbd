@@ -33,7 +33,6 @@
     padding: 10px 0px;
     padding-left: 30px;
     padding-right: 20px;
-    align-items: center;
   }
   #head {
     font-family: 'Gaegu', cursive;
@@ -47,8 +46,6 @@
   #font {
     font-family: 'Single Day', cursive;
     font-size: 23px;
-    margin-left: 10px;
-
   }
   
   #myBtn {
@@ -82,12 +79,17 @@
     font-family:sans-serif;
     font-size: 10px;
   }
-  #img {
+  img {
     width:150px;
-    margin-left: 24px;
-    
+    padding-left: 15px;
+    margin-left: 10px;
   }
   #grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      padding-left: 20px;
+
+  }
+  #ab {
+    margin-left: 24px;
   }
