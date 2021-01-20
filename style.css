@@ -31,7 +31,7 @@
     color: #fff;
     background: rgba(100,100,100,0.4);
     padding: 10px 0px;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 20px;
   }
   #head {
@@ -39,7 +39,7 @@
     font-size: 48px;
     margin-bottom: 40px;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 5px;
     text-align: center;
   }
    
@@ -86,8 +86,8 @@
   }
   #grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      padding-left: 20px;
+      grid-template-columns: 1fr 194px;
+      padding-left: 30px;
 
   }
   #ab {
