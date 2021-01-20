@@ -2,11 +2,6 @@
     box-sizing: border-box;
   }
   
-  body {
-    margin: 0;
-    font-size: 17px;
-  }
-  
   #myVideo {
     position: fixed;
     right: 0;
@@ -16,11 +11,11 @@
   }
   
 #login {
-    width: 480px;
+    width: 460px;
     height: 450px;
-    position: absolute;
+    position: fixed;
     top: calc(46vh - 200px);
-    left: calc(40vw - 200px);
+    left: calc(43vw - 196px);
     overflow: hidden;
 }
 
@@ -31,21 +26,19 @@
     color: #fff;
     background: rgba(100,100,100,0.4);
     padding: 10px 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 9px;
   }
   #head {
     font-family: 'Gaegu', cursive;
     font-size: 48px;
     margin-bottom: 40px;
     margin-top: 15px;
-    margin-left: 5px;
     text-align: center;
   }
    
   #font {
     font-family: 'Single Day', cursive;
-    font-size: 23px;
+    font-size: 22px;
   }
   
   #myBtn {
@@ -80,16 +73,20 @@
     font-size: 10px;
   }
   img {
-    width:150px;
+    width:190px;
+    height: 150px;
     padding-left: 15px;
-    margin-left: 10px;
   }
   #grid {
+      width: 425px;
       display: grid;
-      grid-template-columns: 1fr 194px;
-      padding-left: 30px;
+      grid-template-columns: 215px 194px;
+      margin-right: 0px;
 
   }
   #ab {
     margin-left: 24px;
+  }
+  #page {
+    margin-left: 20px;
   }
